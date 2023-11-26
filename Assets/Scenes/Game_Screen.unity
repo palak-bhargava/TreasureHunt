@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1425469768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df63e83f93cd50340b9e205f616364f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c4e67d8ea07b3a9882442fb6e47626a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactable_text: {fileID: 1897408285}
@@ -712,11 +712,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1830139196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76dfd4886ffd9f4aaa62be96378ba56, type: 3}
+  m_Script: {fileID: 11500000, guid: ff7ce5d250bc2296780fe49cc63686a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: Interactable 2
+  text: Interact 2
   num: 2
+  final_clue: 1
 --- !u!136 &1830139198
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -968,11 +969,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1987421481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76dfd4886ffd9f4aaa62be96378ba56, type: 3}
+  m_Script: {fileID: 11500000, guid: ff7ce5d250bc2296780fe49cc63686a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: Interactable 1
+  text: Interact 1
   num: 1
+  final_clue: 0
 --- !u!136 &1987421483
 CapsuleCollider:
   m_ObjectHideFlags: 0
