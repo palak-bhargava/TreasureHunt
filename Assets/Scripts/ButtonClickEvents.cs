@@ -11,6 +11,6 @@ public class ButtonClickEvents : MonoBehaviour
     }
 
     public void StartGame ( ) {
-        SceneManager.LoadScene ( "Game_Screen" );
+        SceneManager.LoadScene ( "ForestScene" );
     }
 }

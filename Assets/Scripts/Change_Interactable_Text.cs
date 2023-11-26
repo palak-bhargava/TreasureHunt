@@ -24,7 +24,8 @@ public class Change_Interactable_Text : MonoBehaviour {
 
     void changeText ( ) {
         closest_interactable = getNearest ( );
-        if ( Vector3.Distance ( player.gameObject.transform.position, closest_interactable.gameObject.transform.position ) < 3 ) {
+        Debug.Log(Vector3.Distance ( player.gameObject.transform.position, closest_interactable.gameObject.transform.position ));
+        if ( Vector3.Distance ( player.gameObject.transform.position, closest_interactable.gameObject.transform.position ) < 100 ) {
             base_canvas.enabled = true;
             interactable_text.text = closest_interactable.GetComponent<StoredText> ( ).text;
         }

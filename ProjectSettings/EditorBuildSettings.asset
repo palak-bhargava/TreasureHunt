@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/End_Screen.unity
     guid: 423e94b5ef64f9c44a57bb63bd07df0d
+  - enabled: 1
+    path: Assets/Scenes_with_trees/ForestScene.unity
+    guid: 3d45b233ff616410cb634f94c340e724
   m_configObjects: {}
