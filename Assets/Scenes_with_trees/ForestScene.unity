@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -256,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6f6528149e6a4446a8573d31287d85fb, type: 3}
       propertyPath: m_TagString
-      value: Sign_Post
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -448,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6f6528149e6a4446a8573d31287d85fb, type: 3}
       propertyPath: m_TagString
-      value: Sign_Post
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1137,7 +1137,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 50
+  field of view: 80
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -1636,7 +1636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6f6528149e6a4446a8573d31287d85fb, type: 3}
       propertyPath: m_TagString
-      value: Sign_Post
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2221,7 +2221,7 @@ PrefabInstance:
       objectReference: {fileID: 1145509733}
     - target: {fileID: 5140571149613250209, guid: 1e42dde5df0264ab8bcdf1676a53ee00, type: 3}
       propertyPath: m_Lens.FieldOfView
-      value: 50
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6589435288976996533, guid: 1e42dde5df0264ab8bcdf1676a53ee00, type: 3}
       propertyPath: m_CameraDistance
